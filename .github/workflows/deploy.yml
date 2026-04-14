@@ -22,4 +22,4 @@ jobs:
           script: |
             cd /home/ubuntu/user-dev/dummy_testing
             git pull
-            docker compose up -d --build
+            sudo docker compose up -d --build
